@@ -9,13 +9,12 @@
     echo '</br>';
 
     $k = 0;
-    $j = 5;
-    $suma = $k + $j;
-    while($suma < 8){
+    $j = 5; 
+    while($suma < 20){
+        $suma = $k + $j;
         echo $suma . " ";
         $k++;
         $j++;
-        break;
     }
     echo '</br>';
     
